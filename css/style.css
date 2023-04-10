@@ -86,8 +86,7 @@ display: inline-flex;
 padding: 5px;
 width: max-content;
 height: max-content;
-background-color:hsl(40, 100%, 50%);
-margin-left: 450px;
+background-color: transparent;
 border-radius: 20px;
 } 
 
@@ -155,8 +154,10 @@ border-radius: 20px;
 
  .logoprincipal{
 font-variant: small-caps;
+text-shadow: 4px 11px 10px
 
-border-style: outset;
+
+
  }
 
 section h3 {
@@ -186,8 +187,8 @@ section iframe {
    transform: translate(350px);
 }
 .slider-frame {
-  width: 1000px;
-   height: 500px;
+  width: 700px;
+   height: 300px;
   margin:50px auto 0;
   overflow: hidden;
  
@@ -203,12 +204,14 @@ section iframe {
 
 .slider-frame li {
   width: 100%;
+  height: auto;
   list-style: none;
  
 }
 
 .slider-frame img {
   width: 100%;
+  height: auto;
  
 }
 
