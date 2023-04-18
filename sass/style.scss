@@ -5,12 +5,13 @@
 @import "section";
 @import "footer";
 @import "body";
+@import "grid";
 
 .gridcontainer {
     display: grid;
     grid-template-areas: 
               "header"
-              "section"
+              "section footer"
               "footer";
         
     .gridcontainer header {

@@ -11,12 +11,16 @@ header {
     background-color: transparent;
     border-radius: 20px;
     margin-left: 459px;
+    
+
     @include tablet {
+      margin-left: 200px;
+    
+    @include celular {
       margin-left: 20px;
-    }
-     
+    } 
   }
-  
+}
 .logoprincipal{
     font-variant: small-caps;
     text-shadow: 4px 11px 10px

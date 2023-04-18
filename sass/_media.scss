@@ -1,9 +1,13 @@
-@mixin tablet {
-    @media screen and (max-width:789px){
+@mixin celular {
+    @media screen and (max-width:570px){
      @content;
     }   
     }
 
 
-     
+    @mixin tablet {
+        @media screen and (max-width:789px){
+         @content;
+        }   
+        }    
 

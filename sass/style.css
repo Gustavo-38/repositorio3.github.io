@@ -16,6 +16,11 @@ header .logosredes {
 }
 @media screen and (max-width: 789px) {
   header .logosredes {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 789px) and (max-width: 570px) {
+  header .logosredes {
     margin-left: 20px;
   }
 }
@@ -175,7 +180,7 @@ body {
 
 .gridcontainer {
   display: grid;
-  grid-template-areas: "header" "section" "footer";
+  grid-template-areas: "header" "section footer" "footer";
 }
 .gridcontainer .gridcontainer header {
   grid-area: header;
