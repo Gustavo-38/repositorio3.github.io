@@ -167,4 +167,32 @@ section h3 .slider-frame ul li img {
   100% {
     margin-left: -300%;
   }
+}
+
+body {
+  background-color: rgb(229, 221, 212);
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas: "header" "section" "footer";
+}
+.gridcontainer .gridcontainer header {
+  grid-area: header;
+  width: auto;
+  height: auto;
+}
+.gridcontainer .gridcontainer section {
+  grid-area: section;
+  background-color: rgb(3, 3, 3);
+  width: auto;
+  height: auto;
+}
+.gridcontainer .gridcontainer footer {
+  grid-area: footer;
+  width: auto;
+  height: auto;
+}
+.gridcontainer #page-content {
+  flex: 1 0 auto;
 }/*# sourceMappingURL=style.css.map */
