@@ -68,14 +68,15 @@ li a:hover {
           
          
            }
-  }     
+   
 
 .seco {
-   background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/construccion\ en\ seco\ menu.jpg);
+   background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/construccionensecomenu.jpg);
    background-size: 100%;
-        border-radius: 20px;
+  border-radius: 20px;
    margin-right: 25px;
    border-style: outset;
+   text-decoration-color: hsl(40, 100%, 50%);
 }
 
 .menuprincipal {
@@ -87,7 +88,7 @@ li a:hover {
 }
 
 .electricidad {
-  background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/electricidad.jfif);
+  background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/electricidad.jpg);
   background-size: 100%;
   border-radius: 20px;
   margin-right: 25px;
@@ -95,7 +96,7 @@ li a:hover {
 }
 
 .albañileria {
-  background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/albañileriapara\ menu.jfif);
+  background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/albañileriaparamenu.jpg);
   background-size: 100%;
   border-radius: 20px;
   margin-right: 25px;
@@ -103,7 +104,7 @@ li a:hover {
 }
 
 .herreria {
-  background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/herreria\ para\ menu.jfif);
+  background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../imagenes/herreriaparamenu.jpg);
   background-size: 100%;
   border-radius: 20px;
   margin-right: 25px;
@@ -111,13 +112,13 @@ li a:hover {
 }
 
 .contacto {
-  background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)),url(../imagenes/contacto\ para\ el\ menu.jfif);
+  background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)),url(../imagenes/contactoparaelmenu.jpg);
   background-size: 100%;
   border-radius: 20px;
   margin-right: 25px;
   border-style: outset;
 }
-
+}   
 
 
 
