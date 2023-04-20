@@ -118,8 +118,8 @@ section h3 {
   font-variant: small-caps;
 }
 section h3 * {
-  margin: 0;
-  padding: 0;
+  margin: 40px;
+  padding: 40px;
   font-family: lato;
 }
 section h3 iframe {
@@ -143,8 +143,8 @@ section h3 .slider-frame ul li {
   list-style: none;
 }
 section h3 .slider-frame ul li img {
-  width: 100%;
-  height: 100;
+  width: auto;
+  height: 400px;
 }
 @keyframes slide {
   0% {
